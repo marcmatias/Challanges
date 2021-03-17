@@ -19,7 +19,7 @@
         
         Pseudocodigo
             1. Recebe k e n
-            2. Calcula n! / (n - k)! !k
+            2. Calcula n! / (n - k)! k!
 
             Combination example: 9 card hands (Calc forumla)
             https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:prob-comb/x9e81a4f98389efdf:combinations/v/permutations-and-combinations-3
