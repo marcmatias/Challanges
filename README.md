@@ -1,4 +1,4 @@
-# Challanges Solutions Edabit
+# Challenges Solutions Edabit
 
 Soluções de desafios feitos no https://edabit.com/about
 
