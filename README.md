@@ -6,7 +6,7 @@ Soluções de desafios feitos no https://edabit.com/about
 
 **Tech used:** JavaScript
 
-Soluções desenvolvidas com javascript ECMAScript 6 or ES6 baseado em estudos com a documentação disponível da MDN https://developer.mozilla.org
+Soluções desenvolvidas com javascript ECMAScript 2021 or ES2021 baseado em estudos com a documentação disponível da MDN https://developer.mozilla.org
 
 ## Lições aprendidas:
 
