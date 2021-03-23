@@ -4,7 +4,7 @@ Soluções de desafios feitos no https://edabit.com/about
 
 ## How It's Made:
 
-**Tech used:** JavaScript
+**Tech used:** JavaScript, HTML and CSS
 
 Soluções desenvolvidas com javascript ECMAScript 2021 or ES2021 baseado em estudos com a documentação disponível da MDN https://developer.mozilla.org
 
