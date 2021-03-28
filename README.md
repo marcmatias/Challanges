@@ -6,7 +6,7 @@ Soluções de desafios feitos no https://edabit.com/about
 
 **Tech used:** Python, JavaScript, HTML and CSS
 
-Soluções desenvolvidas com Python 3, Javascript ECMAScript 2021 or ES2021 baseado em estudos com a documentação disponível da MDN https://developer.mozilla.org
+Soluções desenvolvidas com Python 3, Javascript ECMAScript 2021 or ES2021 baseado em estudos com a documentação disponível do Python https://docs.python.org/3 e da MDN https://developer.mozilla.org
 
 ## Lições aprendidas:
 
