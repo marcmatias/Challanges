@@ -1,28 +1,21 @@
 '''
 
-    Basic Calculator
+    Count Ones in Binary Representation of Integer
 
-    Create a function that takes two numbers and a mathematical operator + - / * and will perform a calculation with the given numbers.
-    If the input tries to divide by 0, return: "Can't divide by 0!"
+    Count the amount of ones in the binary representation of an integer. For example, since 12 is 1100 in binary, the return value should be 2.
     
     Examples
-        calculator(2, "+", 2) ➞ 4
+        count_ones(0) ➞ 0
 
-        calculator(2, "*", 2) ➞ 4
+        count_ones(100) ➞ 3
 
-        calculator(4, "/", 2) ➞ 2
+        count_ones(999) ➞ 8
 
 '''
 
 
-def calculator(num1, operator, num2):
-    calc = {
-        '+': num1 + num2,
-        '-': num1 - num2,
-        '*': num1 * num2,
-        '/': "Can't divide by 0!" if num1 == 0 or num2 == 0 else num1 / num2,
-    }
-    return calc[operator]
+def count_ones(num):
+    return bin(num).count("1")
 
 
-print(calculator(2, "/", 2))
+print(count_ones(12))
