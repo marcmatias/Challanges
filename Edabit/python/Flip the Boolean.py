@@ -1,21 +1,20 @@
 '''
 
-    Flip the Boolean
+    Moving to the End
 
-    Create a function that reverses a boolean value and returns the
-    string "boolean expected" if another variable type is given.
+    Write a function that moves all elements of
+    one type to the end of the list.
         
     Examples
 
-        reverse(True) ➞ False
+        move_to_end([1, 3, 2, 4, 4, 1], 1) ➞ [3, 2, 4, 4, 1, 1]
+        # Move all the 1s to the end of the array.
 
-        reverse(False) ➞ True
-
-        reverse(0) ➞ "boolean expected"
+        move_to_end([7, 8, 9, 1, 2, 3, 4], 9) ➞ [7, 8, 1, 2, 3, 4, 9]
 
 '''
 
-def reverse(arg):
-    return not arg if type(arg) == bool else "boolean expected"
+def move_to_end(lst, el):
+	return [x for x in lst if x != el] + [ x for x in lst if x == el]
 
-print(reverse(True))
+print(move_to_end([1, 3, 2, 4, 4, 1], 1))
